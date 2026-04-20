@@ -1,882 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Give the gift of strength — Mother's Day · Pilates Carioca Wellness &amp; Training</title>
-<meta name="description" content="Exclusive Mother's Day offer · 20% off a 3-month Pilates membership for new clients. Victoria, BC. Led by Grasie Souza, Coach Pilates.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-<style>
-  /* ---------- PCWTB Brand Tokens ---------- */
-  :root {
-    --lilac: #8588b0;
-    --deep-purple: #67618d;
-    --red: #e8192c;
-    --green: #47a578;
-    --beige: #e8d5c0;
-    --crimson: #961948;
-    --navy: #0b1133;
-    --ink: #2a2a32;
-    --muted: #8a8a94;
-    --border: #ececf2;
-    --bg: #ffffff;
-    --bg-soft: #fafafc;
-    --shadow: 0 10px 30px rgba(11, 17, 51, 0.08);
-  }
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mother's Day Gift — Pilates Carioca</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --lilac:  #8588b0;
+      --purple: #67618d;
+      --red:    #e8192c;
+      --crimson:#961948;
+      --green:  #47a578;
+      --beige:  #e8d5c0;
+      --navy:   #1c1a2e;
+      --white:  #ffffff;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:'Open Sans',sans-serif;background:var(--navy);color:var(--white);overflow-x:hidden}
 
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; }
-  body {
-    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-    color: var(--ink);
-    background: var(--bg);
-    line-height: 1.65;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  img, svg { display: block; max-width: 100%; height: auto; }
-  a { color: inherit; text-decoration: none; }
-  .container {
-    width: 100%;
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 0 28px;
-  }
-  .container-wide {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 28px;
-  }
+    /* NAV */
+    nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:14px 40px;background:rgba(28,26,46,.92);backdrop-filter:blur(14px);border-bottom:1px solid rgba(133,136,176,.12)}
+    .nav-logo{height:46px;width:auto}
+    .nav-cta{background:var(--red);color:var(--white);font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;text-decoration:none;padding:10px 22px;border-radius:3px;transition:background .25s}
+    .nav-cta:hover{background:var(--crimson)}
 
-  /* ---------- Header ---------- */
-  header.site {
-    position: sticky;
-    top: 0;
-    background: rgba(255, 255, 255, 0.92);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--border);
-    z-index: 50;
-  }
-  .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 18px 28px;
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  .logo-mark { display: flex; align-items: center; gap: 10px; }
-  .logo-circle {
-    width: 46px; height: 46px;
-    border-radius: 50%;
-    background: var(--lilac);
-    display: grid; place-items: center;
-    position: relative;
-    overflow: hidden;
-  }
-  .logo-circle::before {
-    content: "";
-    position: absolute; inset: 0;
-    background: repeating-linear-gradient(
-      180deg,
-      var(--deep-purple) 0 3px,
-      var(--lilac) 3px 7px
-    );
-    opacity: 0.55;
-    clip-path: ellipse(70% 55% at 50% 55%);
-  }
-  .logo-leaf {
-    position: relative;
-    z-index: 2;
-    color: var(--red);
-    font-size: 20px;
-  }
-  .nav-cta {
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    color: var(--ink);
-    text-transform: uppercase;
-  }
-  .nav-cta:hover { color: var(--red); }
+    /* SCALLOP */
+    .scallop{width:100%;height:8px;background:repeating-radial-gradient(circle at 50% -50%,var(--red) 0 8px,transparent 8px 16px);background-size:16px 8px}
 
-  /* ---------- Hero ---------- */
-  .hero {
-    padding: 28px 0 0;
-  }
-  .hero-image {
-    position: relative;
-    max-width: 720px;
-    margin: 0 auto;
-    aspect-ratio: 4 / 3;
-    background: linear-gradient(135deg, #e8d5c0 0%, #d8c0a8 50%, #8588b0 100%);
-    border-radius: 4px;
-    overflow: hidden;
-    box-shadow: var(--shadow);
-  }
-  .hero-image::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background:
-      radial-gradient(ellipse at 30% 40%, rgba(255,255,255,0.25), transparent 55%),
-      radial-gradient(ellipse at 70% 80%, rgba(150,25,72,0.15), transparent 60%);
-  }
-  .hero-tag {
-    position: absolute;
-    bottom: 22px;
-    right: 22px;
-    background: #fff;
-    padding: 12px 18px;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.2em;
-    color: var(--ink);
-    border-radius: 2px;
-    z-index: 2;
-  }
+    /* HERO */
+    .hero{position:relative;min-height:100vh;display:grid;grid-template-columns:1fr 1fr}
+    @media(max-width:768px){.hero{grid-template-columns:1fr}.hero-image{height:65vw;min-height:280px;order:1}.hero-text{order:2;padding:40px 24px 60px}}
 
-  /* ---------- Section base ---------- */
-  section { padding: 72px 0; }
-  .eyebrow {
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.28em;
-    color: var(--green);
-    margin-bottom: 14px;
-  }
-  .eyebrow-muted {
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.28em;
-    color: var(--muted);
-    margin-bottom: 14px;
-  }
-  h1, h2, h3 {
-    font-family: 'Open Sans', sans-serif;
-    color: var(--deep-purple);
-    line-height: 1.15;
-  }
-  h1 {
-    font-size: clamp(40px, 6vw, 58px);
-    font-weight: 800;
-    letter-spacing: -0.02em;
-  }
-  h1 .accent { color: var(--red); }
-  h2 {
-    font-size: clamp(28px, 4vw, 40px);
-    font-weight: 700;
-    letter-spacing: -0.01em;
-  }
-  h3 {
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--ink);
-    margin-bottom: 10px;
-  }
-  p { margin-bottom: 16px; }
-  p.lead { font-size: 18px; color: var(--deep-purple); font-weight: 600; }
+    .hero-text{position:relative;z-index:2;padding:130px 48px 80px 60px;display:flex;flex-direction:column;justify-content:center}
+    .hero-tag{display:inline-flex;align-items:center;gap:8px;background:rgba(232,25,44,.12);border:1px solid rgba(232,25,44,.35);color:#ff7a87;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;padding:7px 16px;border-radius:30px;margin-bottom:28px;width:fit-content}
+    .hero-eyebrow{font-size:11px;font-weight:700;letter-spacing:5px;text-transform:uppercase;color:var(--green);margin-bottom:16px}
+    .hero-title{font-size:clamp(32px,4vw,62px);font-weight:800;line-height:1.05;letter-spacing:-1px;margin-bottom:22px}
+    .hero-title .red{color:var(--red);display:block}
+    .hero-title .sub{font-size:.52em;font-weight:300;color:rgba(255,255,255,.5);display:block;margin-top:10px;letter-spacing:0}
+    .hero-body{font-size:15px;font-weight:300;color:rgba(255,255,255,.65);line-height:1.85;max-width:400px;margin-bottom:32px}
 
-  /* ---------- Pill badge ---------- */
-  .pill {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: #fdecef;
-    color: var(--red);
-    padding: 8px 16px;
-    border-radius: 999px;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-  }
+    /* Offer pill */
+    .offer-pill{display:flex;align-items:center;gap:18px;padding:18px 22px;background:linear-gradient(135deg,rgba(150,25,72,.22),rgba(103,97,141,.18));border:1px solid rgba(133,136,176,.22);border-left:3px solid var(--red);border-radius:10px;max-width:420px;margin-bottom:32px}
+    .offer-num{font-size:50px;font-weight:800;line-height:1;flex-shrink:0}
+    .offer-num sup{font-size:22px;color:var(--red)}
+    .offer-details{font-size:13px;font-weight:300;color:rgba(255,255,255,.65);line-height:1.7}
+    .offer-details strong{display:block;font-size:14px;font-weight:700;color:var(--white);margin-bottom:2px}
 
-  /* ---------- Discount box ---------- */
-  .discount-box {
-    display: flex;
-    align-items: center;
-    gap: 22px;
-    background: #fff;
-    border: 1px solid var(--border);
-    border-left: 5px solid var(--red);
-    padding: 26px 28px;
-    margin: 36px 0 28px;
-    border-radius: 4px;
-    box-shadow: var(--shadow);
-  }
-  .discount-num {
-    font-size: 72px;
-    font-weight: 800;
-    color: var(--red);
-    line-height: 1;
-    display: flex;
-    align-items: flex-start;
-  }
-  .discount-num sup {
-    font-size: 28px;
-    font-weight: 700;
-    margin-top: 8px;
-    margin-left: 2px;
-  }
-  .discount-copy strong { display: block; font-size: 17px; color: var(--ink); margin-bottom: 4px; }
-  .discount-copy { font-size: 15px; color: var(--muted); }
+    .btn-primary{display:inline-block;background:var(--red);color:var(--white);font-size:12px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;text-decoration:none;padding:18px 44px;border-radius:4px;transition:all .3s;box-shadow:0 4px 28px rgba(232,25,44,.4);width:fit-content;margin-bottom:12px;cursor:pointer;border:none}
+    .btn-primary:hover{background:var(--crimson);transform:translateY(-2px);box-shadow:0 10px 40px rgba(232,25,44,.55)}
+    .btn-note{font-size:11px;color:rgba(255,255,255,.3);letter-spacing:.5px}
 
-  /* ---------- Buttons ---------- */
-  .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 18px 36px;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    border: 2px solid var(--red);
-    background: #fff;
-    color: var(--red);
-    border-radius: 2px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-  }
-  .btn:hover {
-    background: var(--red);
-    color: #fff;
-    transform: translateY(-2px);
-  }
-  .btn-primary {
-    background: var(--red);
-    color: #fff;
-  }
-  .btn-primary:hover {
-    background: var(--crimson);
-    border-color: var(--crimson);
-  }
-  .btn-note {
-    font-size: 13px;
-    color: var(--muted);
-    text-align: center;
-    margin-top: 14px;
-  }
-  .center { text-align: center; }
+    /* Hero image */
+    .hero-image{position:relative;overflow:hidden;background:linear-gradient(145deg,#2a1f3d,#1c1a2e)}
+    .hero-image img{width:100%;height:100%;object-fit:cover;object-position:center top;filter:brightness(.78) saturate(1.15);display:block}
+.hero-image::before{content:'';position:absolute;inset:0;background:linear-gradient(to right,var(--navy) 0%,transparent 45%);z-index:1}
+    .hero-image::after{content:'';position:absolute;bottom:0;left:0;right:0;height:160px;background:linear-gradient(to top,var(--navy),transparent);z-index:1}
+    .photo-label{position:absolute;bottom:24px;right:20px;z-index:2;background:rgba(28,26,46,.65);border:1px solid rgba(133,136,176,.2);border-radius:6px;padding:7px 12px;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.45)}
 
-  /* ---------- Dividers (wave) ---------- */
-  .divider {
-    height: 60px;
-    overflow: hidden;
-    margin: 20px 0;
-  }
-  .divider svg { width: 100%; height: 100%; display: block; }
+    /* WAVE */
+    .wave{width:100%;overflow:hidden;line-height:0}
+    .wave svg{display:block}
 
-  /* ---------- Bonus grid ---------- */
-  .bonus-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 36px 28px;
-    margin-top: 48px;
-  }
-  .bonus-card {
-    padding-top: 14px;
-    border-top: 2px solid transparent;
-    position: relative;
-  }
-  .bonus-card.featured { border-top-color: var(--green); }
-  .bonus-card.red-accent { border-top-color: var(--red); }
-  .bonus-icon {
-    font-size: 38px;
-    margin-bottom: 18px;
-    line-height: 1;
-  }
-  .bonus-label {
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.18em;
-    color: var(--muted);
-    margin-bottom: 12px;
-  }
-  .bonus-title {
-    font-size: 19px;
-    font-weight: 700;
-    color: var(--ink);
-    margin-bottom: 12px;
-    line-height: 1.3;
-  }
-  .bonus-body {
-    font-size: 15px;
-    color: var(--muted);
-    line-height: 1.7;
-  }
+    /* INCLUDED */
+    .included-section{background:var(--lilac);padding:90px 24px}
+    .container{max-width:960px;margin:0 auto}
+    .section-tag{font-size:10px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:rgba(255,255,255,.55);margin-bottom:10px}
+    .section-title{font-size:clamp(24px,3.5vw,42px);font-weight:800;line-height:1.15;margin-bottom:48px}
+    .bonus-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+    .bonus-card{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.16);border-radius:14px;padding:36px 24px;transition:transform .3s,box-shadow .3s}
+    .bonus-card:hover{transform:translateY(-6px);box-shadow:0 16px 48px rgba(0,0,0,.2)}
+    .bonus-icon{font-size:34px;margin-bottom:16px;display:block}
+    .bonus-label{font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.45);margin-bottom:7px}
+    .bonus-title{font-size:16px;font-weight:700;margin-bottom:10px}
+    .bonus-body{font-size:13px;font-weight:300;color:rgba(255,255,255,.7);line-height:1.75}
 
-  /* ---------- Instructor section ---------- */
-  .instructor {
-    background: var(--bg-soft);
-  }
-  .instructor-photo {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    margin: 0 auto 32px;
-    background: linear-gradient(135deg, var(--beige), var(--lilac));
-    position: relative;
-    overflow: hidden;
-    box-shadow: var(--shadow);
-  }
-  .instructor-photo::after {
-    content: "";
-    position: absolute; inset: 0;
-    background: radial-gradient(circle at 50% 35%, rgba(255,255,255,0.3), transparent 70%);
-  }
-  .callout {
-    display: flex;
-    align-items: flex-start;
-    gap: 18px;
-    border-left: 4px solid var(--lilac);
-    padding: 20px 24px;
-    background: #f5f3f8;
-    border-radius: 0 6px 6px 0;
-    margin: 28px 0;
-  }
-  .callout-icon {
-    font-size: 24px;
-    color: var(--lilac);
-    line-height: 1;
-    flex-shrink: 0;
-  }
-  .callout-body {
-    font-size: 15px;
-    color: var(--ink);
-    line-height: 1.7;
-    margin: 0;
-  }
+    /* INSTRUCTOR — VICKI */
+    .vicki-section{background:#13112a;padding:90px 24px}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;max-width:960px;margin:0 auto}
+    @media(max-width:680px){.two-col{grid-template-columns:1fr;gap:40px}}
+    .photo-frame{position:relative;border-radius:16px;overflow:hidden;aspect-ratio:3/4;background:linear-gradient(145deg,#2a1f3d,#1a1830)}
+    .photo-frame img{width:100%;height:100%;object-fit:cover;object-position:center top;filter:brightness(.85) saturate(1.1)}
+.photo-frame::after{content:'';position:absolute;bottom:0;left:0;right:0;height:100px;background:linear-gradient(to top,#13112a,transparent)}
+    .photo-frame::before{content:'';position:absolute;inset:-2px;border-radius:18px;background:linear-gradient(135deg,var(--lilac),var(--red),var(--green));z-index:-1}
+    .tag-green{font-size:10px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:var(--green);margin-bottom:10px}
+    .person-name{font-size:clamp(26px,3vw,40px);font-weight:800;margin-bottom:6px}
+    .person-cred{font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--lilac);margin-bottom:26px}
+    .person-bio{font-size:15px;font-weight:300;color:rgba(255,255,255,.7);line-height:1.85;margin-bottom:16px}
+    .highlight-box{display:flex;align-items:flex-start;gap:12px;padding:16px;background:rgba(133,136,176,.1);border-left:3px solid var(--lilac);border-radius:0 8px 8px 0;font-size:14px;font-weight:300;color:rgba(255,255,255,.72);line-height:1.7;margin-top:20px}
+    .hi{font-size:20px;flex-shrink:0;margin-top:2px}
 
-  /* ---------- Investment card ---------- */
-  .invest-card {
-    background: #fff;
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 44px 40px;
-    box-shadow: var(--shadow);
-    margin: 40px auto 0;
-    max-width: 620px;
-  }
-  .invest-headline {
-    font-size: 22px;
-    font-weight: 700;
-    color: var(--ink);
-    text-align: center;
-    margin-bottom: 28px;
-    letter-spacing: -0.01em;
-  }
-  .invest-big {
-    text-align: center;
-    margin: 24px 0 8px;
-  }
-  .invest-big .num {
-    font-size: 96px;
-    font-weight: 800;
-    color: var(--red);
-    line-height: 1;
-    display: inline-block;
-  }
-  .invest-big sup {
-    font-size: 36px;
-    font-weight: 700;
-    vertical-align: top;
-    margin-top: 12px;
-    display: inline-block;
-  }
-  .invest-sub { text-align: center; color: var(--muted); font-size: 15px; }
-  .invest-sub .expires { color: var(--red); font-weight: 600; }
+    /* PRICING */
+    .pricing-section{background:var(--navy);padding:90px 24px}
+    .price-box{max-width:620px;margin:0 auto;background:linear-gradient(150deg,rgba(103,97,141,.22),rgba(28,26,46,.9));border:1px solid rgba(133,136,176,.26);border-radius:20px;padding:56px 44px;position:relative;overflow:hidden;text-align:center}
+    .price-box::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--red),var(--lilac),var(--green))}
+    .price-label{font-size:10px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:var(--green);margin-bottom:8px}
+    .price-name{font-size:21px;font-weight:800;margin-bottom:30px}
+    .price-amount{font-size:70px;font-weight:800;line-height:1;color:var(--white);margin-bottom:6px}
+    .price-amount sup{font-size:28px;color:var(--red);vertical-align:super}
+    .price-period{font-size:12px;font-weight:300;color:rgba(255,255,255,.4);margin-bottom:8px}
+    .price-was{font-size:13px;color:rgba(255,255,255,.35);text-decoration:line-through;margin-bottom:28px}
+    .price-list{list-style:none;text-align:left;max-width:420px;margin:0 auto 32px}
+    .price-list li{display:flex;align-items:flex-start;gap:10px;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.07);font-size:14px;font-weight:300;color:rgba(255,255,255,.75);line-height:1.5}
+    .price-list li::before{content:'✦';color:var(--red);font-size:9px;margin-top:4px;flex-shrink:0}
+    .price-list li.bonus{color:rgba(255,255,255,.9);font-weight:600}
+    .price-list li.bonus::before{color:var(--green)}
+    .countdown-label{font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:12px}
+    .countdown{display:flex;gap:10px;justify-content:center;margin-bottom:32px}
+    .cd-block{background:rgba(232,25,44,.1);border:1px solid rgba(232,25,44,.25);border-radius:8px;padding:12px 16px;min-width:64px;text-align:center}
+    .cd-num{font-size:28px;font-weight:800;display:block;line-height:1}
+    .cd-unit{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.35);display:block;margin-top:4px}
+    .btn-large{display:inline-block;background:var(--red);color:var(--white);font-size:12px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;text-decoration:none;padding:20px 52px;border-radius:4px;transition:all .3s;box-shadow:0 4px 30px rgba(232,25,44,.45);cursor:pointer;border:none}
+    .btn-large:hover{background:var(--crimson);transform:translateY(-2px);box-shadow:0 12px 44px rgba(232,25,44,.6)}
 
-  .feature-list {
-    list-style: none;
-    margin: 32px 0;
-    padding: 0;
-  }
-  .feature-list li {
-    display: flex;
-    align-items: flex-start;
-    gap: 14px;
-    padding: 10px 0;
-    color: var(--ink);
-    font-size: 15px;
-  }
-  .feature-list li::before {
-    content: "✦";
-    color: var(--green);
-    font-size: 16px;
-    flex-shrink: 0;
-    margin-top: 2px;
-  }
+    /* GRASIE */
+    .grasie-section{background:var(--purple);padding:90px 24px}
+    .photo-frame-sq{border-radius:16px;overflow:hidden;aspect-ratio:4/5;position:relative;background:linear-gradient(145deg,#2a1f3d,#1a1830)}
+    .photo-frame-sq img{width:100%;height:100%;object-fit:cover;object-position:center top;filter:brightness(.88) saturate(1.1)}
+    .photo-frame-sq::after{content:'';position:absolute;bottom:0;left:0;right:0;height:90px;background:linear-gradient(to top,var(--purple),transparent)}
+    .person-sig{font-size:13px;font-weight:600;color:rgba(255,255,255,.45);margin-top:22px;font-style:italic}
+    .stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:28px;border:1px solid rgba(255,255,255,.12);border-radius:10px;overflow:hidden}
+    .stat{padding:20px 12px;text-align:center;background:rgba(255,255,255,.06)}
+    .stat-n{font-size:28px;font-weight:800;display:block}
+    .stat-l{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.38);display:block;margin-top:4px}
 
-  /* ---------- Countdown ---------- */
-  .countdown-label {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.22em;
-    font-size: 12px;
-    color: var(--red);
-    margin: 30px 0 18px;
-  }
-  .countdown {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
-    max-width: 480px;
-    margin: 0 auto 30px;
-  }
-  .count-cell {
-    background: #fff;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 18px 8px;
-    text-align: center;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.03);
-  }
-  .count-num {
-    font-size: 32px;
-    font-weight: 800;
-    color: var(--ink);
-    line-height: 1;
-    display: block;
-  }
-  .count-unit {
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.22em;
-    color: var(--muted);
-    text-transform: uppercase;
-    margin-top: 6px;
-    display: block;
-  }
+    /* TESTIMONIAL */
+    .testimonial-section{background:var(--navy);padding:90px 24px;text-align:center}
+    .qm{font-size:80px;line-height:.5;color:var(--red);font-family:Georgia,serif;display:block;margin-bottom:22px;opacity:.45}
+    .qt{font-size:clamp(16px,2.5vw,22px);font-weight:300;font-style:italic;color:var(--white);line-height:1.8;max-width:640px;margin:0 auto 22px}
+    .qa{font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.38)}
 
-  /* ---------- Stats row ---------- */
-  .stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin-top: 44px;
-    padding: 32px 0;
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-  }
-  .stat { text-align: center; }
-  .stat-num {
-    font-size: 40px;
-    font-weight: 800;
-    color: var(--deep-purple);
-    line-height: 1;
-  }
-  .stat-label {
-    display: block;
-    margin-top: 8px;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.22em;
-    color: var(--muted);
-    text-transform: uppercase;
-  }
+    /* FINAL CTA */
+    .final-cta{background:linear-gradient(145deg,var(--crimson),var(--purple));padding:100px 24px;text-align:center;position:relative;overflow:hidden}
+    .final-cta::before{content:'🍁';position:absolute;font-size:380px;opacity:.04;top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none}
+    .final-cta .container{position:relative;z-index:1}
+    .final-title{font-size:clamp(30px,5vw,58px);font-weight:800;margin-bottom:16px;line-height:1.1}
+    .final-sub{font-size:15px;font-weight:300;color:rgba(255,255,255,.7);margin-bottom:40px;max-width:480px;margin-left:auto;margin-right:auto;line-height:1.8}
+    .final-note{margin-top:16px;font-size:11px;color:rgba(255,255,255,.3);letter-spacing:.5px}
 
-  /* ---------- Testimonial ---------- */
-  .testimonial {
-    text-align: center;
-    padding: 80px 0;
-    background: var(--bg-soft);
-  }
-  .quote-mark {
-    font-size: 48px;
-    color: var(--red);
-    line-height: 1;
-    margin-bottom: 26px;
-    font-family: Georgia, serif;
-  }
-  .testimonial blockquote {
-    font-size: 19px;
-    font-style: italic;
-    color: var(--ink);
-    max-width: 620px;
-    margin: 0 auto 24px;
-    line-height: 1.6;
-  }
-  .testimonial cite {
-    font-style: normal;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.22em;
-    color: var(--muted);
-    text-transform: uppercase;
-  }
+    /* FOOTER */
+    footer{background:#0e0d1c;padding:40px 24px;text-align:center;border-top:1px solid rgba(133,136,176,.1)}
+    .footer-logo{height:38px;margin:0 auto 14px;display:block}
+    .footer-handle{font-size:13px;color:rgba(255,255,255,.3);margin-bottom:4px}
+    .footer-location{font-size:11px;letter-spacing:1px;color:rgba(255,255,255,.16)}
 
-  /* ---------- Final CTA ---------- */
-  .final-cta {
-    position: relative;
-    text-align: center;
-    padding: 100px 0 40px;
-    overflow: hidden;
-  }
-  .final-cta h2 {
-    font-size: clamp(30px, 5vw, 46px);
-    margin-bottom: 20px;
-  }
-  .final-cta h2 .accent { color: var(--red); }
-  .final-cta .body-text {
-    max-width: 560px;
-    margin: 0 auto 36px;
-    color: var(--muted);
-    font-size: 16px;
-  }
-  .maple-bg {
-    position: absolute;
-    bottom: -40px;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0.08;
-    width: 320px;
-    color: var(--red);
-    pointer-events: none;
-  }
-
-  /* ---------- Footer ---------- */
-  footer.site {
-    padding: 50px 0 60px;
-    text-align: center;
-    border-top: 1px solid var(--border);
-  }
-  .footer-logo { margin: 0 auto 16px; }
-  .footer-handle {
-    font-weight: 700;
-    color: var(--deep-purple);
-    margin-bottom: 4px;
-  }
-  .footer-location {
-    font-size: 13px;
-    color: var(--muted);
-  }
-
-  /* ---------- Responsive ---------- */
-  @media (max-width: 640px) {
-    .nav { padding: 14px 20px; }
-    .nav-cta { font-size: 11px; letter-spacing: 0.1em; }
-    section { padding: 56px 0; }
-    .bonus-grid { grid-template-columns: 1fr; gap: 40px; }
-    .discount-box { flex-direction: column; align-items: flex-start; gap: 10px; padding: 22px; }
-    .discount-num { font-size: 58px; }
-    .invest-card { padding: 32px 22px; }
-    .invest-big .num { font-size: 72px; }
-    .countdown { gap: 8px; }
-    .count-num { font-size: 24px; }
-    .stats { grid-template-columns: 1fr; gap: 24px; }
-    .btn { padding: 16px 22px; font-size: 12px; letter-spacing: 0.16em; width: 100%; }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    * { animation: none !important; transition: none !important; }
-    html { scroll-behavior: auto; }
-  }
-</style>
+@media(max-width:480px){
+      nav{padding:12px 18px}
+      .hero-text{padding:40px 20px 60px}
+      .price-box{padding:36px 20px}
+      .price-amount{font-size:52px}
+      .countdown{gap:6px}
+      .cd-block{min-width:50px;padding:10px 6px}
+      .cd-num{font-size:22px}
+    }
+  </style>
 </head>
 <body>
 
-<!-- ============ HEADER ============ -->
-<header class="site">
-  <div class="nav">
-    <a href="#" class="logo-mark" aria-label="Pilates Carioca home">
-      <span class="logo-circle" aria-hidden="true">
-        <span class="logo-leaf">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M12 2l1.5 4.5L18 5l-2 4.5L20.5 11 16 13l2 4.5-4.5-1L12 21l-1.5-4.5L6 17.5 8 13 3.5 11 8 9.5 6 5l4.5 1.5z"/>
-          </svg>
-        </span>
-      </span>
-    </a>
-    <a href="#cta" class="nav-cta">Book Free Chat</a>
-  </div>
-</header>
+<!-- NAV -->
+<nav>
+  <img class="nav-logo" src="logo.jpeg" alt="Pilates Carioca"/>
+  <a href="#book" class="nav-cta">Book Free Chat</a>
+</nav>
 
-<!-- ============ HERO ============ -->
+<div class="scallop"></div>
+
+<!-- HERO -->
 <section class="hero">
-  <div class="container">
-    <div class="hero-image" role="img" aria-label="Pilates Carioca studio · Victoria, BC · Spring 2025">
-      <div class="hero-tag">Victoria, BC · Spring 2025</div>
-    </div>
-  </div>
-
-  <div class="container" style="padding-top:64px;">
-    <span class="pill">🌸 &nbsp;Mother's Day · New clients only</span>
-    <div class="eyebrow-muted">Exclusive offer · Victoria, BC · Canada</div>
-
-    <h1>Give the gift of <span class="accent">strength.</span></h1>
-    <p class="lead" style="margin-top:18px;">For the mother who moves mountains.</p>
-
-    <p style="margin-top:22px; font-size:16px; color:var(--ink);">
+  <div class="hero-text">
+    <div class="hero-tag">🌸 Mother's Day · New Clients Only</div>
+    <p class="hero-eyebrow">Exclusive Offer · Victoria, BC · Canada</p>
+    <h1 class="hero-title">
+      Give the gift of
+      <span class="red">strength.</span>
+      <span class="sub">For the mother who moves mountains.</span>
+    </h1>
+    <p class="hero-body">
       This Mother's Day, offer something that truly lasts — a Pilates membership built on consistency, expert coaching, and real transformation. Classical method. Brazilian warmth. Canadian heart.
     </p>
-
-    <div class="discount-box" aria-label="20% off 3-month membership">
-      <div class="discount-num">20<sup>%</sup></div>
-      <div class="discount-copy">
+    <div class="offer-pill">
+      <div class="offer-num">20<sup>%</sup></div>
+      <div class="offer-details">
         <strong>Off Your 3-Month Membership</strong>
-        3 sessions/week · New clients only<br>
-        + 3 exclusive welcome bonuses
+        3 sessions/week · 36 classes · New clients only<br/>
+        + 3 exclusive welcome bonuses included
       </div>
     </div>
-
-    <div style="text-align:center; margin-top:28px;">
-      <a href="#cta" class="btn btn-primary">Book My Free 5-Min Chat →</a>
-      <p class="btn-note">No commitment · Just a conversation · Offer expires Mother's Day</p>
-    </div>
+    <a href="#book" class="btn-primary">Book My Free 5-Min Chat →</a>
+    <p class="btn-note">No commitment · Just a conversation · Offer expires May 11</p>
+  </div>
+  <div class="hero-image">
+    <img src="photo-hero.jpg" alt="Grasie doing Pilates in front of the BC Parliament, Victoria">
+    <span class="photo-label">Victoria, BC · Canada</span>
   </div>
 </section>
 
-<!-- wave divider (lilac) -->
-<div class="divider" aria-hidden="true">
-  <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
-    <path fill="#8588b0" d="M0,40 C300,10 600,55 1200,15 L1200,60 L0,60 Z"/>
+<!-- WAVE -->
+<div class="wave">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none" height="60" width="100%">
+    <path fill="#8588b0" d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z"/>
   </svg>
 </div>
 
-<!-- ============ BONUSES ============ -->
-<section>
-  <div class="container-wide">
-    <div class="center">
-      <div class="eyebrow-muted">Everything included</div>
-      <h2>Your membership + 3 exclusive bonuses</h2>
-    </div>
-
-    <div class="bonus-grid">
-      <div class="bonus-card">
-        <div class="bonus-icon">🗓️</div>
-        <div class="bonus-label">Core Membership</div>
-        <div class="bonus-title">3 Classes Per Week · 3 Months</div>
-        <p class="bonus-body">36 sessions of classical Pilates coaching. The consistency your body needs to truly feel the method working — stronger posture, deeper core, more energy every day.</p>
-      </div>
-
-      <div class="bonus-card red-accent">
-        <div class="bonus-icon">🎁</div>
-        <div class="bonus-label">Bonus 1 · Exclusive Discount</div>
-        <div class="bonus-title">20% Off — New Clients Only</div>
-        <p class="bonus-body">Applied to your full 3-month membership. A meaningful saving as our gift to mothers beginning their Pilates journey this season. Limited time only.</p>
-      </div>
-
-      <div class="bonus-card">
-        <div class="bonus-icon">🎵</div>
-        <div class="bonus-label">Bonus 2 · Wellness Add-on</div>
-        <div class="bonus-title">2 × Platform Vibration Sessions</div>
-        <p class="bonus-body">Two complimentary 10-minute whole-body vibration platform sessions. Supports recovery, circulation, and muscle activation — the perfect complement to your Pilates practice.</p>
-      </div>
-
-      <div class="bonus-card red-accent">
-        <div class="bonus-icon">⭐</div>
-        <div class="bonus-label">Bonus 3 · Foundation Class</div>
-        <div class="bonus-title">1 Foundation Class with Vicki Burnell</div>
-        <p class="bonus-body">A private foundation session guided by certified instructor Vicki Burnell — where you'll learn the essential Pilates principles through precise, personalized cues tailored to you.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- wave divider (navy) -->
-<div class="divider" aria-hidden="true">
-  <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
-    <path fill="#0b1133" d="M0,20 C400,50 800,5 1200,45 L1200,60 L0,60 Z"/>
-  </svg>
-</div>
-
-<!-- ============ VICKI ============ -->
-<section class="instructor">
+<!-- WHAT'S INCLUDED -->
+<section class="included-section">
   <div class="container">
-    <div class="instructor-photo" aria-hidden="true"></div>
-    <div class="eyebrow">Meet your foundation instructor</div>
-    <h2>Vicki Burnell</h2>
-    <div class="eyebrow-muted" style="margin-top:10px;">Certified Pilates Instructor · Balanced Body · Canada</div>
+    <p class="section-tag">Everything included</p>
+    <h2 class="section-title">Your complete<br/>Mother's Day package</h2>
+    <div class="bonus-grid">
 
-    <p style="margin-top:26px;">
-      Vicki is a fully certified Canadian Pilates instructor through Balanced Body — one of the most respected certification bodies in the world. But what truly sets Vicki apart is her depth of classical understanding: she studied the Pilates method directly with Grasie for over three years, absorbing the full richness of the classical tradition.
-    </p>
-    <p>
-      Vicki's teaching style is precise, warm, and deeply effective. She has a remarkable gift for finding exactly the right cue for each body — making even complex movements feel clear and accessible. Her clients leave feeling understood, stronger, and more connected to their practice.
-    </p>
+      <div class="bonus-card">
+        <span class="bonus-icon">🏛️</span>
+        <p class="bonus-label">The Foundation</p>
+        <h3 class="bonus-title">36 Classical Pilates Sessions</h3>
+        <p class="bonus-body">Three classes per week over three months — the exact frequency needed to create lasting change. Rooted in the original method of Joseph Pilates, taught with precision and warmth.</p>
+      </div>
 
-    <div class="callout">
-      <span class="callout-icon">💬</span>
-      <p class="callout-body">Your foundation class with Vicki is a guided journey through the principles of classical Pilates — where precision of cue meets depth of method. The perfect first step into your practice.</p>
+      <div class="bonus-card">
+        <span class="bonus-icon">✨</span>
+        <p class="bonus-label">Bonus Included</p>
+        <h3 class="bonus-title">2 Vibration Platform Recovery Sessions</h3>
+        <p class="bonus-body">Complimentary sessions on our vibration platform to support recovery, circulation, and overall wellbeing between your Pilates classes. A gift within the gift.</p>
+      </div>
+
+      <div class="bonus-card">
+        <span class="bonus-icon">🎯</span>
+        <p class="bonus-label">Bonus Included</p>
+        <h3 class="bonus-title">Private Foundation Class</h3>
+        <p class="bonus-body">A one-on-one session with certified instructor Vicki Burnell before you begin — so you start with confidence, correct alignment, and a personalised movement baseline.</p>
+      </div>
+
     </div>
   </div>
 </section>
 
-<!-- wave divider (navy) -->
-<div class="divider" aria-hidden="true">
-  <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
-    <path fill="#0b1133" d="M0,45 C400,15 800,55 1200,25 L1200,60 L0,60 Z"/>
+<!-- WAVE -->
+<div class="wave" style="background:#8588b0">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none" height="60" width="100%">
+    <path fill="#13112a" d="M0,0 C480,60 960,0 1440,30 L1440,60 L0,60 Z"/>
   </svg>
 </div>
 
-<!-- ============ INVESTMENT ============ -->
-<section id="cta">
-  <div class="container-wide">
-    <div class="center">
-      <div class="eyebrow">Your investment</div>
-      <h2>Mother's Day Membership</h2>
+<!-- VICKI — INSTRUCTOR SPOTLIGHT -->
+<section class="vicki-section">
+  <div class="two-col">
+    <div class="photo-frame">
+      <img src="photo-vicki.jpeg" alt="Vicki Burnell, Pilates Instructor">
     </div>
-
-    <div class="invest-card">
-      <div class="eyebrow center" style="margin-bottom:6px;">Limited time · New clients only</div>
-      <div class="invest-headline">3 Sessions/Week · 3-Month Commitment</div>
-
-      <div class="invest-big">
-        <span class="num">20<sup>%</sup></span>
+    <div>
+      <p class="tag-green">Your Welcome Class Instructor</p>
+      <h2 class="person-name">Vicki Burnell</h2>
+      <p class="person-cred">Balanced Body Certified · Pilates Carioca</p>
+      <p class="person-bio">
+        Vicki brings warmth, precision, and deep anatomical knowledge to every session. As a Balanced Body certified instructor, she specialises in helping new students find their footing — building confidence from the very first movement.
+      </p>
+      <p class="person-bio">
+        Your private foundation class with Vicki is where it all begins. She'll learn how you move, where you hold tension, and what your body needs — so every class after that is designed around <em>you</em>.
+      </p>
+      <div class="highlight-box">
+        <span class="hi">💬</span>
+        <span>"I believe the first class sets the tone for everything. My goal is for you to leave feeling capable, curious, and ready to come back." — Vicki</span>
       </div>
-      <p class="invest-sub">OFF your full membership · Applied at booking</p>
-      <p class="invest-sub" style="margin-top:16px;"><span class="expires">Mother's Day offer — expires May 11, 2026</span></p>
+    </div>
+  </div>
+</section>
 
-      <ul class="feature-list">
-        <li>36 sessions of classical Pilates over 3 months</li>
-        <li>3 sessions per week — the consistency that creates change</li>
-        <li>Expert coaching by Grasie Souza, Coach Pilates</li>
-        <li>Intimate studio environment in Victoria, BC</li>
-        <li>🎁 20% off membership — new clients exclusive</li>
-        <li>🎵 2 × 10-min whole-body vibration platform sessions</li>
-        <li>⭐ 1 foundation class with Vicki Burnell</li>
-        <li>Begins with a free 5-minute discovery conversation</li>
+<!-- PRICING -->
+<section class="pricing-section" id="book">
+  <div class="container">
+    <div class="price-box">
+      <p class="price-label">Mother's Day Special · New Clients Only</p>
+      <h2 class="price-name">3-Month Classical Pilates Membership</h2>
+
+      <p class="countdown-label">Offer closes in</p>
+      <div class="countdown">
+        <div class="cd-block"><span class="cd-num" id="cd-days">--</span><span class="cd-unit">Days</span></div>
+        <div class="cd-block"><span class="cd-num" id="cd-hours">--</span><span class="cd-unit">Hours</span></div>
+        <div class="cd-block"><span class="cd-num" id="cd-mins">--</span><span class="cd-unit">Mins</span></div>
+        <div class="cd-block"><span class="cd-num" id="cd-secs">--</span><span class="cd-unit">Secs</span></div>
+      </div>
+
+      <ul class="price-list">
+        <li>36 coached Pilates sessions — 3 per week for 3 months</li>
+        <li>20% discount applied at checkout · New clients only</li>
+        <li class="bonus">✦ 2 complimentary vibration platform recovery sessions</li>
+        <li class="bonus">✦ 1 private foundation class with Vicki Burnell</li>
+        <li class="bonus">✦ Personal movement assessment with Grasie</li>
+        <li>Location: Victoria, BC · Studio sessions</li>
+        <li>Offer expires Mother's Day — May 11, 2026</li>
       </ul>
 
-      <div class="countdown-label">⏳ Offer expires in</div>
-      <div class="countdown" id="countdown" aria-live="polite">
-        <div class="count-cell"><span class="count-num" id="cd-days">22</span><span class="count-unit">Days</span></div>
-        <div class="count-cell"><span class="count-num" id="cd-hrs">08</span><span class="count-unit">Hrs</span></div>
-        <div class="count-cell"><span class="count-num" id="cd-min">39</span><span class="count-unit">Min</span></div>
-        <div class="count-cell"><span class="count-num" id="cd-sec">07</span><span class="count-unit">Sec</span></div>
-      </div>
-
-      <div class="center" style="margin-top:10px;">
-        <a href="#footer" class="btn btn-primary" style="width:100%;">Claim My Free 5-Min Chat 🌸</a>
-        <p class="btn-note">Booking link coming soon · DM <strong>@pilatescariocawellness</strong> on Instagram</p>
-      </div>
+      <a href="https://www.instagram.com/pilatescariocawellness" target="_blank" class="btn-large">Book My Free 5-Min Chat →</a>
+      <p class="btn-note" style="margin-top:16px">DM us on Instagram · @pilatescariocawellness · No commitment required</p>
     </div>
   </div>
 </section>
 
-<!-- wave divider (deep purple) -->
-<div class="divider" aria-hidden="true">
-  <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
-    <path fill="#67618d" d="M0,35 C400,5 800,50 1200,15 L1200,60 L0,60 Z"/>
+<!-- WAVE -->
+<div class="wave" style="background:var(--navy)">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none" height="60" width="100%">
+    <path fill="#67618d" d="M0,30 C360,0 1080,60 1440,20 L1440,60 L0,60 Z"/>
   </svg>
 </div>
 
-<!-- ============ GRASIE ============ -->
-<section>
-  <div class="container">
-    <div class="eyebrow-muted">Your instructor</div>
-    <h2>Grasie Souza</h2>
-    <div class="eyebrow-muted" style="margin-top:10px;">Coach Pilates · Pilates Carioca Wellness &amp; Training</div>
-
-    <p style="margin-top:26px;">
-      Pilates Carioca was born from a deep love of the classical Pilates method and the vibrant, warm energy of Brazil — brought to the beautiful city of Victoria, British Columbia.
-    </p>
-    <p>
-      Grasie believes that movement is the most generous gift you can give yourself. Every session is intentional, personal, and grounded in the full tradition of Joseph Hubertus Pilates — guided by a Brazilian caregiver's warmth and a Canadian instructor's precision.
-    </p>
-    <p>
-      This Mother's Day, she is offering something rare: a meaningful, supported entry into a practice that transforms how you move through every single day.
-    </p>
-    <p style="font-style:italic; color:var(--muted); margin-top:22px;">
-      — Grasie Souza · @pilatescariocawellness
-    </p>
-
-    <div class="stats">
-      <div class="stat"><div class="stat-num">36</div><span class="stat-label">Classes</span></div>
-      <div class="stat"><div class="stat-num">3×</div><span class="stat-label">Per Week</span></div>
-      <div class="stat"><div class="stat-num">20%</div><span class="stat-label">Off</span></div>
+<!-- GRASIE — FOUNDER -->
+<section class="grasie-section">
+  <div class="two-col">
+    <div>
+      <p class="tag-green">Your Lead Instructor & Founder</p>
+      <h2 class="person-name">Grasie Souza</h2>
+      <p class="person-cred">5th Generation · Joseph Pilates Method · Fully Diplomaed</p>
+      <p class="person-bio">
+        I didn't just study Pilates — I studied directly within the lineage of Joseph Pilates himself. As a 5th generation fully diplomaed instructor, I teach the classical method with the integrity and depth it deserves.
+      </p>
+      <p class="person-bio">
+        My clients come to me dealing with chronic pain, low mobility, the effects of menopause, high cholesterol, and years of sedentary work. What they discover is that their body is capable of far more than they believed — it just needed the right guidance.
+      </p>
+      <p class="person-sig">— Grasie Souza, Pilates Carioca</p>
+      <div class="stats-row">
+        <div class="stat"><span class="stat-n">5th</span><span class="stat-l">Generation</span></div>
+        <div class="stat"><span class="stat-n">3+</span><span class="stat-l">Years Classical Training</span></div>
+        <div class="stat"><span class="stat-n">100%</span><span class="stat-l">Classical Method</span></div>
+      </div>
+    </div>
+    <div class="photo-frame-sq">
+      <img src="photo-grasie.jpeg" alt="Grasie Souza, Founder of Pilates Carioca">
     </div>
   </div>
 </section>
 
-<!-- wave divider (navy) -->
-<div class="divider" aria-hidden="true">
-  <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
-    <path fill="#0b1133" d="M0,25 C400,55 800,10 1200,40 L1200,60 L0,60 Z"/>
-  </svg>
-</div>
-
-<!-- ============ TESTIMONIAL ============ -->
-<section class="testimonial">
+<!-- TESTIMONIAL -->
+<section class="testimonial-section">
   <div class="container">
-    <div class="quote-mark" aria-hidden="true">“”</div>
-    <blockquote>
-      Pilates with Grasie changed how I move through my day. After just a few weeks I felt taller, stronger, and more connected to my body than I had in years. Best gift I ever gave myself.
-    </blockquote>
-    <cite>— Studio Client · Victoria, BC</cite>
+    <span class="qm">"</span>
+    <p class="qt">Pilates with Grasie changed how I move through my day. After just a few weeks I felt taller, stronger, and more connected to my body than I had in years. I only wish I'd started sooner.</p>
+    <p class="qa">— Studio client · Victoria, BC</p>
   </div>
 </section>
 
-<!-- ============ FINAL CTA ============ -->
-<section class="final-cta" id="footer">
+<!-- FINAL CTA -->
+<section class="final-cta">
   <div class="container">
-    <h2>Start with a free <br><span class="accent">5-minute chat.</span></h2>
-    <p class="body-text">
-      No pressure, no commitment — just five minutes to talk about your goals, discover the studio, and see if Pilates Carioca is right for you. This Mother's Day offer won't last long.
-    </p>
-    <a href="#" class="btn btn-primary">Book My Free Conversation 🌸</a>
-    <p class="btn-note">New clients only · Mother's Day offer · 3×/week · 3-month commitment</p>
-
-    <svg class="maple-bg" viewBox="0 0 100 100" aria-hidden="true">
-      <path fill="currentColor" d="M50 8 l4 14 12-6 -4 14 14 2 -10 10 10 10 -14 2 4 14 -12-6 -4 14 -4-14 -12 6 4-14 -14-2 10-10 -10-10 14-2 -4-14 12 6z"/>
-    </svg>
+    <h2 class="final-title">She deserves to feel<br/>strong again.</h2>
+    <p class="final-sub">Whether this is a gift for your mum, or a gift for yourself — this Mother's Day is the moment to begin. Offer closes May 11th.</p>
+    <a href="https://www.instagram.com/pilatescariocawellness" target="_blank" class="btn-large">Book My Free 5-Min Chat →</a>
+    <p class="final-note">No commitment · Just a conversation · @pilatescariocawellness</p>
   </div>
 </section>
 
-<!-- ============ FOOTER ============ -->
-<footer class="site">
-  <div class="container">
-    <div class="logo-mark footer-logo" style="justify-content:center;">
-      <span class="logo-circle" aria-hidden="true" style="width:54px; height:54px;">
-        <span class="logo-leaf">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M12 2l1.5 4.5L18 5l-2 4.5L20.5 11 16 13l2 4.5-4.5-1L12 21l-1.5-4.5L6 17.5 8 13 3.5 11 8 9.5 6 5l4.5 1.5z"/>
-          </svg>
-        </span>
-      </span>
-    </div>
-    <div class="footer-handle">@pilatescariocawellness</div>
-    <div class="footer-location">Victoria, BC · Canada</div>
-  </div>
+<!-- FOOTER -->
+<footer>
+  <img class="footer-logo" src="logo.jpeg" alt="Pilates Carioca"/>
+  <p class="footer-handle">@pilatescariocawellness</p>
+  <p class="footer-location">Victoria · British Columbia · Canada</p>
+  <p style="font-size:10px;color:rgba(255,255,255,.1);margin-top:18px">Offer valid for new clients only · Expires May 11, 2026</p>
 </footer>
 
+<!-- COUNTDOWN SCRIPT -->
 <script>
-  // -------- Countdown: targets Mother's Day 2026 (May 10, 2026 23:59:59 local) --------
-  (function () {
-    const target = new Date('2026-05-11T12:00:00').getTime();
-    const $days = document.getElementById('cd-days');
-    const $hrs  = document.getElementById('cd-hrs');
-    const $min  = document.getElementById('cd-min');
-    const $sec  = document.getElementById('cd-sec');
-    const pad = n => String(n).padStart(2, '0');
+  function updateCountdown() {
+    const deadline = new Date('2026-05-11T23:59:59');
+    const now = new Date();
+    const diff = deadline - now;
 
-    function tick() {
-      const now = Date.now();
-      let diff = Math.max(0, target - now);
-      const days = Math.floor(diff / 86400000); diff -= days * 86400000;
-      const hrs  = Math.floor(diff / 3600000);  diff -= hrs  * 3600000;
-      const min  = Math.floor(diff / 60000);    diff -= min  * 60000;
-      const sec  = Math.floor(diff / 1000);
-      $days.textContent = pad(days);
-      $hrs.textContent  = pad(hrs);
-      $min.textContent  = pad(min);
-      $sec.textContent  = pad(sec);
+    if (diff <= 0) {
+      document.getElementById('cd-days').textContent = '0';
+      document.getElementById('cd-hours').textContent = '0';
+      document.getElementById('cd-mins').textContent = '0';
+      document.getElementById('cd-secs').textContent = '0';
+      return;
     }
-    tick();
-    setInterval(tick, 1000);
-  })();
+
+    const days  = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const mins  = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const secs  = Math.floor((diff % (1000 * 60)) / 1000);
+
+    document.getElementById('cd-days').textContent  = String(days).padStart(2,'0');
+    document.getElementById('cd-hours').textContent = String(hours).padStart(2,'0');
+    document.getElementById('cd-mins').textContent  = String(mins).padStart(2,'0');
+    document.getElementById('cd-secs').textContent  = String(secs).padStart(2,'0');
+  }
+
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
 </script>
 
 </body>
